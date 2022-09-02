@@ -1,0 +1,15 @@
+.footer {
+  min-height: 4rem;
+  background-color: var(--clr-primary-200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+@media (min-width: 1024px) {
+  .footer br {
+    display: none;
+  }
+}

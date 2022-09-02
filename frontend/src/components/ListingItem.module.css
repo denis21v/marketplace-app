@@ -1,0 +1,79 @@
+.listingImage {
+  position: relative;
+  background-color: rgba(220, 220, 220, 0.128);
+}
+
+.listingImage:hover {
+  border: 2px solid black;
+}
+
+.listingImage img {
+  width: 100%;
+  height: 20rem;
+}
+
+.imageInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24%;
+}
+
+.listingEditButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #555;
+  color: white;
+  font-size: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.listingEditButton:hover {
+  color: lightblue;
+}
+
+.listingEditButton:focus {
+  color: lightblue;
+}
+
+.listingDeleteButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #555;
+  color: white;
+  font-size: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.listingDeleteButton:hover {
+  color: red;
+}
+
+.listingDeleteButton:focus {
+  color: red;
+}
+
+@media (min-width: 1024px) {
+  .listingImage {
+    height: 24rem;
+    width: 100%;
+  }
+
+  .gameInfo {
+    height: 30%;
+  }
+
+  .listingImage img {
+    height: 75%;
+  }
+}

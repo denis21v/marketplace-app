@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.content {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 75.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap');
+
+:root {
+  --clr-primary-100: #ffffff;
+  --clr-primary-200: #d2d7df;
+
+  --clr-secondary-150: #4b4b4b;
+  --clr-secondary-200: #353535;
+  --clr-secondary-900: #000000;
+
+  --clr-neutral-200: #bdbbb0;
+
+  --clr-alternative-200: #049a8f;
+
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-accent: 'Playfair Display', serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-primary-100);
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--ff-accent);
+  font-weight: 900;
+  line-height: 1;
+  color: var(--clr-secondary-900);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  color: var(--clr-secondary-900);
+}
+
+a {
+  font-size: 1.2rem;
+  /* color: var(--clr-secondary-900); */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}

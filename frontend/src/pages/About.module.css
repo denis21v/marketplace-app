@@ -1,0 +1,53 @@
+.aboutIcon {
+  display: none;
+}
+
+.aboutTitle {
+  margin-bottom: 2rem;
+}
+
+.aboutInfo h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.aboutInfo {
+  padding: 1rem;
+  width: 100%;
+
+  border: 1px solid rgba(128, 128, 128, 0.331);
+
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.version p {
+  display: inline;
+}
+
+.version p:nth-child(2) {
+  color: var(--clr-alternative-200);
+}
+
+.developerInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.developerInfo p a {
+  text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  .developerInfo {
+    flex-direction: row;
+  }
+
+  .aboutIcon {
+    display: block;
+  }
+}

@@ -1,0 +1,142 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-primary-200);
+}
+
+.navbar a {
+  color: var(--clr-secondary-900);
+}
+
+.navbarMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.navbarLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbarMiddle {
+  display: flex;
+  justify-content: center;
+}
+
+.navbarRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbarLogo {
+  font-family: var(--ff-accent);
+  font-weight: 900;
+  line-height: 1;
+  color: var(--clr-secondary-200);
+  font-size: 2rem;
+}
+
+.navbarMain nav {
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
+.navbarMain nav > * {
+  margin: 0rem 0.85rem;
+}
+
+/* log out button */
+.navbarMain nav > button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: #353535;
+  cursor: pointer;
+}
+
+/* user name */
+.navbarMain nav > span {
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: var(--clr-alternative-200);
+}
+
+.navbarMenu {
+  background-color: #d2d7df;
+  height: 100%;
+}
+
+.navbarMenu nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbarMenu nav > * {
+  width: 100%;
+  height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.navbarMenu nav > *:nth-child(odd) {
+  background-color: var(--clr-primary-400);
+}
+
+.navbarButton {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  display: flex;
+  align-items: center;
+  color: var(--clr-secondary-200);
+}
+
+.navbar a:hover {
+  color: var(--clr-primary-100);
+}
+
+.navbarMain nav > button:hover {
+  color: var(--clr-primary-100);
+}
+
+@media (min-width: 1024px) {
+  .navbarMain nav {
+    display: block;
+  }
+
+  .navbarLeft {
+    min-width: 30%;
+  }
+
+  .navbarRight {
+    min-width: 30%;
+  }
+
+  .navbarMiddle {
+    min-width: 40%;
+  }
+
+  .navbarLogo {
+    font-size: 2.8rem;
+  }
+
+  .navbarButton {
+    display: none;
+  }
+
+  .navbarMenu {
+    display: none;
+  }
+}

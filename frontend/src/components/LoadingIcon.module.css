@@ -1,0 +1,13 @@
+.loadingIcon {
+  animation: rotation 2.8s infinite linear;
+  margin-top: 25vh;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
